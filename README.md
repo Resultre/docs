@@ -1,32 +1,15 @@
-# Mintlify Starter Kit
+ # Starter Docs Open Source
+ 
+Starter Docs Open Source é uma coleção de tutoriais e códigos prontos para a instalação de diversas aplicações web. Nosso objetivo é facilitar o processo de configuração e deploy de aplicações, oferecendo uma documentação detalhada e acessível para desenvolvedores de todos os níveis.
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+### O que você vai encontrar aqui:
+Tutoriais Passo a Passo: Guias detalhados para a instalação e configuração de várias aplicações web populares.
+Códigos Prontos: Exemplos de scripts e configurações que você pode utilizar diretamente em seus projetos.
+Boas Práticas: Recomendações e dicas para garantir que suas instalações sejam seguras, escaláveis e eficientes.
+Por que open source?
+Acreditamos que o conhecimento deve ser acessível a todos. Com isso em mente, disponibilizamos o Starter Docs Open Source como um projeto de código aberto para que qualquer pessoa possa contribuir, melhorar e adaptar o conteúdo para suas próprias necessidades.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+###Como Contribuir:
+Estamos sempre em busca de melhorias! Se você encontrou um erro, tem sugestões ou deseja adicionar novos tutoriais, sinta-se à vontade para contribuir. Confira o arquivo CONTRIBUTING.md para saber mais sobre como você pode ajudar.
 
-### Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
-
-```
-npm i -g mintlify
-```
-
-Run the following command at the root of your documentation (where mint.json is)
-
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+Starter Docs Open Source é mais do que um repositório de tutoriais; é uma comunidade em crescimento dedicada a tornar o processo de instalação de aplicações web mais simples e acessível para todos. Participe e ajude a construir um recurso valioso para desenvolvedores em todo o mundo!
