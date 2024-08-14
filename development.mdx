@@ -17,7 +17,53 @@ npm i -g mintlify
 ```
 
 ```bash yarn
-yarn global add mintlify
+version: "3.8"
+
+services:
+  salewp:
+    image: litespeedtech/openlitespeed-wordpress:latest
+    volumes:
+      - salewp_data:/var/www/html
+    networks:
+      - traefik_network
+      - salewp_network
+    environment:
+      - WORDPRESS_DB_NAME=${WORDPRESS_DB_NAME}
+      - WORDPRESS_DB_HOST=${WORDPRESS_DB_HOST}
+      - WORDPRESS_DB_PORT=${WORDPRESS_DB_PORT}
+      - WORDPRESS_DB_USER=${WORDPRESS_DB_USER}
+      - WORDPRESS_DB_PASSWORD=${WORDPRESS_DB_PASSWORD}
+      - VIRTUAL_HOST=${VIRTUAL_HOST}
+      - WP_LOCALE=${WP_LOCALE}
+    deploy:
+      mode: replicated
+      replicas: 1  # Aumente a disponibilidade com duas replicas
+      placement:
+        constraints:
+          - node.role == manager
+      labels:
+        - traefik.enable=true
+        - traefik.http.routers.salewp.rule=Host(`lp.novelisantos.com.br`)
+        - traefik.http.routers.salewp.entrypoints=websecure
+        - traefik.http.routers.salewp.tls.certresolver=le
+        - traefik.http.routers.salewp.service=homewp
+        - traefik.http.services.salegwp.loadbalancer.server.port=80
+        - traefik.http.services.salewp.loadbalancer.passHostHeader=true
+    restart: unless-stopped  # Reiniciar o conteiner a menos que seja parado manualmente
+
+volumes:
+  salewp_data:
+    external: true
+    name: salewp_data
+
+networks:
+  traefik_network:
+    external: true
+    name: traefik_network
+  salewp_network:
+    external: true
+    name: salewp_network
+
 ```
 
 </CodeGroup>
