@@ -17,13 +17,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Contato",
-      "url": "https://doc.evolution-api.com/v2/"
+      "name": "Contratar",
+      "url": "#"
     }
   ],
   "topbarCtaButton": {
-    "name": "Website",
-    "url": "https://resultre.com"
+    "name": "Contato",
+    "url": "https://resultre.com/contato"
   },
   "tabs": [
     {
@@ -34,13 +34,13 @@
   "anchors": [
     {
       "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "icon": "globe-pointer",
+      "url": "https://resultre.com"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Comunidades",
+      "icon": "whatsapp",
+      "url": "https://resultre.com/comunidades"
     },
     {
       "name": "Blog",
