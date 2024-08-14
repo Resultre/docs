@@ -9,7 +9,7 @@ Boas Práticas: Recomendações e dicas para garantir que suas instalações sej
 Por que open source?
 Acreditamos que o conhecimento deve ser acessível a todos. Com isso em mente, disponibilizamos o Starter Docs Open Source como um projeto de código aberto para que qualquer pessoa possa contribuir, melhorar e adaptar o conteúdo para suas próprias necessidades.
 
-###Como Contribuir:
+### Como Contribuir:
 Estamos sempre em busca de melhorias! Se você encontrou um erro, tem sugestões ou deseja adicionar novos tutoriais, sinta-se à vontade para contribuir. Confira o arquivo CONTRIBUTING.md para saber mais sobre como você pode ajudar.
 
 Starter Docs Open Source é mais do que um repositório de tutoriais; é uma comunidade em crescimento dedicada a tornar o processo de instalação de aplicações web mais simples e acessível para todos. Participe e ajude a construir um recurso valioso para desenvolvedores em todo o mundo!
