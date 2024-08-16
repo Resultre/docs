@@ -17,12 +17,12 @@
   },
   "topbarLinks": [
     {
-      "name": "Contratar",
+      "name": "!",
       "url": "#"
     }
   ],
   "topbarCtaButton": {
-    "name": "Contato",
+    "name": "Assessoria",
     "url": "https://resultre.com/contato"
   },
   "tabs": [
