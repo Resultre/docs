@@ -33,20 +33,10 @@
   ],
   "anchors": [
     {
-      "name": "Nosso site",
-      "icon": "globe-pointer",
-      "url": "https://resultre.com"
-    },
-    {
       "name": "Comunidades",
       "icon": "whatsapp",
-      "url": "https://resultre.com/comunidades"
+      "url": "#"
     },
-    {
-      "name": "Nosso Blog",
-      "icon": "newspaper",
-      "url": "https://resultre.com/blog"
-    }
   ],
   "navigation": [
     {
