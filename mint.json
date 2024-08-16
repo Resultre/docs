@@ -50,11 +50,11 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Como funciona?",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "Introdução",
+        "Links de Ajuda",
+        "Ferramentas úteis"
       ]
     },
     {
